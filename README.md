@@ -11,5 +11,5 @@ Describe what your project is about and what it does
 bikeshare.py, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Lex Fridman from MIT Deep Learning team inspired me for this proejct. This is the address to his github https://github.com/lexfridman?tab=repositories. 
 
