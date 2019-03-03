@@ -40,7 +40,7 @@ def get_time_period():
     '''
     time_period = ''
     while time_period.lower() not in ['month', 'day', 'none']:
-        time_period = input('\n Would you like to filter the data by month, day,'
+        time_period = input('\n Do you like to filter the data by month, day,'
                             ' or not at all? Type "none" for no time filter.\n')
         if time_period.lower() not in ['month', 'day', 'none']:
             print('Sorry, I do not understand your input. Please try again.')
@@ -61,7 +61,7 @@ def get_month():
                             ' May, or June?\n')
         if month_input.lower() not in months_dict.keys():
             print('Sorry, I do not understand your input. Please type in a '
-                  'month between January and June')
+                  'month between January and June only')
     month = months_dict[month_input.lower()]
     return ('2017-{}'.format(month), '2017-{}'.format(month + 1))
 
